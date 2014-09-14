@@ -22,7 +22,7 @@ import cn.lambdacraft.crafting.block.tile.TileElCrafter;
 import cn.lambdacraft.crafting.network.NetCrafterClient;
 import cn.lambdacraft.crafting.recipe.RecipeWeapons;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -33,7 +33,7 @@ import net.minecraft.util.StatCollector;
  * @author WeAthFolD
  * 
  */
-public class GuiElectricCrafter extends LIGuiContainer {
+public class GuiElectricCrafter extends GuiContainerSP {
 
 	public TileElCrafter tileEntity;
 
