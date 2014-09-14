@@ -21,7 +21,7 @@ import cn.lambdacraft.crafting.block.container.ContainerGenerator;
 import cn.lambdacraft.crafting.block.tile.TileGeneratorFire;
 import cn.lambdacraft.crafting.register.CBCBlocks;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -32,7 +32,7 @@ import net.minecraft.util.StatCollector;
  * @author WeAthFolD
  * 
  */
-public class GuiGenFire extends LIGuiContainer {
+public class GuiGenFire extends GuiContainerSP {
 
 	TileGeneratorFire te;
 
