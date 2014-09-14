@@ -20,7 +20,7 @@ import cn.lambdacraft.core.prop.ClientProps;
 import cn.lambdacraft.crafting.block.container.ContainerBatBox;
 import cn.lambdacraft.crafting.block.tile.TileBatBox;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -31,7 +31,7 @@ import net.minecraft.util.StatCollector;
  * @author WeAthFolD
  * 
  */
-public class GuiBatBox extends LIGuiContainer {
+public class GuiBatBox extends GuiContainerSP {
 
 	private TileBatBox te;
 
