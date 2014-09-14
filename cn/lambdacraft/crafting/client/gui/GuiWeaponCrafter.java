@@ -27,7 +27,7 @@ import cn.lambdacraft.crafting.block.tile.TileWeaponCrafter;
 import cn.lambdacraft.crafting.network.NetCrafterClient;
 import cn.lambdacraft.crafting.recipe.RecipeWeapons;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 
@@ -37,7 +37,7 @@ import cn.liutils.api.client.gui.IGuiTip;
  * 
  * @author WeAthFolD
  */
-public class GuiWeaponCrafter extends LIGuiContainer {
+public class GuiWeaponCrafter extends GuiContainerSP {
 
 	public TileWeaponCrafter te;
 	public InventoryPlayer inv;
