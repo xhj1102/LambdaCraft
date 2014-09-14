@@ -25,7 +25,7 @@ import cn.lambdacraft.crafting.block.container.ContainerGeneratorSolar;
 import cn.lambdacraft.crafting.block.tile.TileGeneratorSolar;
 import cn.lambdacraft.crafting.register.CBCBlocks;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 
@@ -34,7 +34,7 @@ import cn.liutils.api.client.gui.IGuiTip;
  * @author WeAthFolD
  * 
  */
-public class GuiGenSolar extends LIGuiContainer {
+public class GuiGenSolar extends GuiContainerSP {
 
 	TileGeneratorSolar te;
 
