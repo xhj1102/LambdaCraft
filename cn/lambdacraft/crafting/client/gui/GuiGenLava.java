@@ -25,7 +25,7 @@ import cn.lambdacraft.crafting.block.container.ContainerGeneratorLava;
 import cn.lambdacraft.crafting.block.tile.TileGeneratorLava;
 import cn.lambdacraft.crafting.register.CBCBlocks;
 import cn.liutils.api.client.gui.LIGuiButton;
-import cn.liutils.api.client.gui.LIGuiContainer;
+import cn.liutils.api.client.gui.GuiContainerSP;
 import cn.liutils.api.client.gui.LIGuiPart;
 import cn.liutils.api.client.gui.IGuiTip;
 
@@ -34,7 +34,7 @@ import cn.liutils.api.client.gui.IGuiTip;
  * @author WeAthFolD
  * 
  */
-public class GuiGenLava extends LIGuiContainer {
+public class GuiGenLava extends GuiContainerSP {
 
 	TileGeneratorLava te;
 
